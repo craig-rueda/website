@@ -1,0 +1,89 @@
+a {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: rgba(255, 255, 255, 0.85);
+  font-family: 'Roboto', sans-serif;
+}
+
+.forkme {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(to bottom, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+}
+
+.main-holder {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1 {
+  font-size: 60px;
+  margin: 100px 0 10px 0;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+h1:after {
+  content: ' ';
+  display: block;
+  width: 50px;
+  margin: 10px auto -10px 0;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 300;
+  margin: 30px 0 0 0;
+}
+
+.icons {
+  text-align: center;
+  width: 100%;
+  margin-top: 200px;
+}
+
+.icons > a {
+  margin-right: 20px;
+}
+
+.icons > a:last-child {
+  margin-right: 0;
+}
+
+.icon {
+  height: 36px;
+  width: 36px;
+}
+
+.icon-path {
+  fill: rgba(255, 255, 255, 0.9);
+}
+
+.tagline {
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 30px;
+}
